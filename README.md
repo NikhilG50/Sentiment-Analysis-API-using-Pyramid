@@ -5,11 +5,8 @@ The objective of this project is to create an API endpoint that can accept a tex
 
 > To see a Sample demo of this model play "demo.mp4" file.
 
-# Installation
+# Installation and How to Run.
   Firist you need to clone this repo and follow The below specified steps.
-
-
-
 
 In this Project an Sentiment analysis binary model has been created using core concepts of Natural language processing. and the model is trained on the `airline_sentiment_analysis.csv` file. You can see how the model is trained in `Train.ipynb` which is present in the model Directory.
 
@@ -26,7 +23,7 @@ before starting the server we need to setup the environment,
   * `cd nlp/`
   * run `python setup.py develop`
   * after that run `pserve development.ini` to start Server
-it will give an url. copy and paste the Url on any browser
+it will give an url in the terminal. copy and paste the Url on any browser to run this project.
   
 # Details and Screenshots.
 
