@@ -3,6 +3,8 @@
 # Overview:
 The objective of this project is to create an API endpoint that can accept a text and return associated sentiment with it Using Python Pyramid Framework. 
 
+> To see a Sample demo of this model play "demo.mp4" file.
+
 # Installation
   Firist you need to clone this repo and follow The below specified steps.
 
