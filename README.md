@@ -1,29 +1,38 @@
 # Sentiment-Analysis-API-using-Pyramid
-The objective of this project is to create an API endpoint that can accept a text and return associated sentiment with it. 
+The objective of this project is to create an API endpoint that can accept a text and return associated sentiment with it Using Python Pyramid Framework. 
+
+In this Project an Sentiment analysis binary model has been created using core concepts of Natural language processing. and the model is trained on the "airline_sentiment_analysis.csv" file. You can see how the model is trained in "Train.ipynb" which is present in the model Directory.
+
+After training we will take the weights presnt in model named "model.pkl" and copy that to nlp folder where an Pyramid API is present.(hear you may have to dlt old model.pkl to use new weights)
+
+Pyramid api is present in the folder nlp.
+Now we need to activate the virtual environment where your Pyramid api is installed. after that follow the below steps,
+  * cd inside your pyrimd_"environment name"
+  * source bin/activate
+
+After initializing the environment successfully, we need to install some dependencies in that environment. you can copy code from requirements.txt file and paste on the terminal to install required libraries.
+
+before starting the server we need to setup the environment,  
+  * cd nlp/
+  * run python setup.py develop
+  copy and paste the Url on any browser
+  
+This will show an input field where we can enter the text, for which we need to identify sentiment. 
+################### add screenshots of the model.
+
+after inputting the text it will redirect to another page where output of our model in Returned in json format. format details is specified below.
+  * if model predicted sentiment is Positive it will return {Success:true,Sentiment:1}
+  * else if the model predicted sentiment is Negative it will return {Success:true,Sentiment:0}
+#####################screen shot
 
 
-Trained on airline_sentiment_analysis.csv file
-
-Train the model using Train.ipynb
-
-after training take the model.pkl file add to the nlp folder to use that weights.
 
 
-activete the virtual environment where your Pyramid api is installed. 
-cd inside your pyrimd_"environment name"
-source bin/activate
-
-Install all the dependinces
-install all the required libraries present in requirements.txt file.
-
-
-this api whould return output from our model in json format.
-* if model predicted sentiment is Positive it will return {Success:true,Sentemnt:1}
-* else if the model predicted sentiment is Negetive it will return {Success:true,Sentemnt:0}
-
-
-python setup.py develop
+pre-request libraries.
 
 Python 3.7
+Numpy
+Matplotlib
 Pyramid
+
 
