@@ -25,7 +25,7 @@ After initializing the environment successfully, we need to install some depende
 before starting the server we need to setup the environment,  
   * `cd nlp/`
   * run `python setup.py develop`
- after that run `pserve development.ini` to start Server
+  * after that run `pserve development.ini` to start Server
 it will give an url. copy and paste the Url on any browser
   
 # Details and Screenshots.
