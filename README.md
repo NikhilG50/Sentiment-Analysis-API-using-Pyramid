@@ -15,7 +15,7 @@ After training we will take the weights presnt in model named `model.pkl` and co
 
 Pyramid api is present in the folder nlp.
 Now we need to activate the virtual environment where your Pyramid api is installed. after that follow the below steps,
-  * `cd inside your pyrimd_"environment name"`
+  * `cd "inside your pyrimd_environment name"`
   * `source bin/activate`
 
 After initializing the environment successfully, we need to install some dependencies in that environment. you can copy code from requirements.txt file and paste on the terminal to install required libraries.
