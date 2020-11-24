@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nlp
+Version: 0.0
+Summary: nlp
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Description: Train the model using Train.ipynb
+        
+        
+        source bin/activate
+        install all the required libraries present in requirements.txt file.
+        
+        
+        Python 3.7
+        Pyramid
+        
+        
+        
+        0.0
+        ---
+        
+        -  Initial version
+        
+Keywords: web pyramid pylons
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Pyramid
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Provides-Extra: testing

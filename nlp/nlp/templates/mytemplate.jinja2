@@ -1,0 +1,15 @@
+
+{% block content%}
+
+<div class="content"  align="center" style="background-color:black;"  >
+    <h1><span class="smaller" style="color:white;" >Sentiment analysis</span></h1>
+    <form action="content" method="GET">
+          <label for="text" style="color:white;">Enter the string:</label><br><br>
+          <input type="text" id="text" name="text" placeholder="Text" size="35" ><br><br>
+          <input type="submit" style="background-color:blue;  style="color:red;">
+    </form>
+    <div style="color:white;"> Find senitments by providing English text statements.</div>
+    <br><br>
+</div>
+
+{% endblock content %}
