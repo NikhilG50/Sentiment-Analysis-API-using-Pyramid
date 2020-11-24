@@ -30,15 +30,15 @@ it will give an url. copy and paste the Url on any browser
   
 # Details and Screenshots.
 
-This will show an input field where we can enter the text, for which we need to identify sentiment. 
-################### add screenshots of the model.
+* Below given image will show an input field where we can enter the text, for which we need to identify sentiment. after typing a text click on submit Button.
 ![alt text](https://github.com/NikhilG50/Sentiment-Analysis-API-using-Pyramid/blob/main/images/input.png)
 
 
-after inputting the text it will redirect to another page where output of our model in Returned in json format. format details is specified below.
-  * if model predicted sentiment is Positive it will return {Success:true,Sentiment:1}
-  * else if the model predicted sentiment is Negative it will return {Success:true,Sentiment:0}
-#####################screen shot
+* After inputting the text it will redirect to another page where output of our model in Returned in json format. format details is specified below.
+    * if model predicted sentiment is Positive it will return {Success:true,Sentiment:1}
+    * else if the model predicted sentiment is Negative it will return {Success:true,Sentiment:0}
+  
+Below is the image which showes the output Window on browser. 
 ![alt text](https://github.com/NikhilG50/Sentiment-Analysis-API-using-Pyramid/blob/main/images/output.png)
 
 
