@@ -17,7 +17,7 @@ After training we will take the weights presnt in model named `model.pkl` and co
 
 Pyramid api is present in the folder nlp.
 Now we need to activate the virtual environment where your Pyramid api is installed. after that follow the below steps,
-  * `cd "inside your pyrimd_environment name"`
+  * `cd "inside your pyrimd_environment"`
   * `source bin/activate`
 
 After initializing the environment successfully, we need to install some dependencies in that environment. you can copy code from requirements.txt file and paste on the terminal to install required libraries.
@@ -25,17 +25,21 @@ After initializing the environment successfully, we need to install some depende
 before starting the server we need to setup the environment,  
   * `cd nlp/`
   * run `python setup.py develop`
+ after that run `pserve development.ini` to start Server
 it will give an url. copy and paste the Url on any browser
   
 # Details and Screenshots.
 
 This will show an input field where we can enter the text, for which we need to identify sentiment. 
 ################### add screenshots of the model.
+![alt text](https://github.com/NikhilG50/Sentiment-Analysis-API-using-Pyramid/blob/main/images/input.png)
+
 
 after inputting the text it will redirect to another page where output of our model in Returned in json format. format details is specified below.
   * if model predicted sentiment is Positive it will return {Success:true,Sentiment:1}
   * else if the model predicted sentiment is Negative it will return {Success:true,Sentiment:0}
 #####################screen shot
+![alt text](https://github.com/NikhilG50/Sentiment-Analysis-API-using-Pyramid/blob/main/images/output.png)
 
 
 
