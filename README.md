@@ -41,8 +41,7 @@ it will give an url. copy and paste the Url on any browser
 Below is the image which showes the output Window on browser. 
 ![alt text](https://github.com/NikhilG50/Sentiment-Analysis-API-using-Pyramid/blob/main/images/output.png)
 
-
-
+### Note: This project only focuses on Backend part. you can easily edit this using front end web technologies.
 
 # Other Requirements
 
@@ -51,4 +50,5 @@ Below is the image which showes the output Window on browser.
 * Matplotlib
 * Pyramid
 
+### Thank You.
 
