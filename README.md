@@ -17,6 +17,11 @@ Install all the dependinces
 install all the required libraries present in requirements.txt file.
 
 
+this api whould return output from our model in json format.
+* if model predicted sentiment is Positive it will return {Success:true,Sentemnt:1}
+* else if the model predicted sentiment is Negetive it will return {Success:true,Sentemnt:0}
+
+
 python setup.py develop
 
 Python 3.7
