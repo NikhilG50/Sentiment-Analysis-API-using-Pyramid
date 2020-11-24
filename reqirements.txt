@@ -1,0 +1,6 @@
+pip install Unidecode
+pip install -U spacy
+python -m spacy download en
+pip install joblib
+pip install imblearn
+
